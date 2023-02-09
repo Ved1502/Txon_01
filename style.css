@@ -1,0 +1,134 @@
+.navbar{
+    padding: 1px;
+    display: flex;
+    justify-content:
+    space-between;
+}
+.navbar-brand{
+    font-weight: 400;
+    font-size: 2em;
+    padding: 0px 100px;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+.navbar-brand span{
+     font-size: 2.2em;
+    color: rgb(239, 4, 4);
+}
+.navbar-nav{
+    padding: 0px 100px;
+    margin-top: 20px;
+}
+.nav-link{
+    margin: 0px 10px;
+    font-weight: 500;
+    color:rgb(236, 11, 11);
+}
+.about {
+   margin-top: 100px;
+   text-align: left;
+   font-family: 'Times New Roman', Times, serif;
+}
+.about h6{
+    font-weight: 600;
+    font-size: 2em;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.about h6 span{
+    font-weight: 800;
+    font-size: 2.2em;
+    color: rgb(239, 4, 4);
+    font-family: 'Times New Roman', Times, serif;
+}
+.carousel-inner h5{
+    color: rgb(0, 0, 0);
+}
+.carousel-inner p{
+    color: rgb(0, 0, 0);
+}
+.carousel-inner{
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about img{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 300px;
+    margin-top: 50px;
+}
+.content{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.content h6{
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content span{
+    font-weight: 800;
+    font-size: 2.2em;
+    color: rgb(239, 4, 4);
+}
+.content h6::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 400px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    background: rgb(239, 4, 4);
+}
+.popular {
+ margin-bottom: 200px; 
+}
+.popular .box {
+    box-shadow: 10px 10px 10px -10px
+    rgba(0, 0, 0, 0.311),
+    inset 10px 10px 10px -10px
+    rgba(0, 0, 0, 0.807);
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.popular .box img{
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+}
+.popular .box h6{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.popular .box span{
+    font-family: 'Times New Roman', Times, serif;
+}
+.popular .box h6 span{
+    font-weight: 800;
+    color: rgb(239, 4, 4);
+
+}
+.popular .box:hover{
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    color: white !important;
+    background: black;
+}
+.popular .mid{
+    margin-top: 80px;
+}
